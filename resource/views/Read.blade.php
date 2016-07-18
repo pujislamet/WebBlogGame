@@ -82,7 +82,7 @@
                     <div class="col-md-8 box myarticle">
                         @foreach($all as $data)
                         <div class="col-md-12">
-                            <h1>{{ $data->judul }}<h6>Published by <a href="">Puji Slamet</a> | {{ $data->tanggal }}</h6></h1><br />
+                            <h3>{{ $data->judul }}<h6>Published by <a href="">Puji Slamet</a> | {{ $data->tanggal }}</h6></h3><br />
                             <center><img src="../../{{ $data->image }}" style="width: 60%;" /></center>
                             <h4 style="text-align: justify;"><p>{{ $data->isi }}</p></h4>
                         </div>
